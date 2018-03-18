@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.studycase.vanard.vianrasyiddiyatma_1202154186_modul4.ListNamaMahasiswa">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/list_nama_mahasiswa"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/list_sync_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:text="@string/mulai_asynctask"
+        android:layout_marginBottom="5dp"
+        android:textAllCaps="false"/>
+    <ListView
+        android:id="@+id/list_nama_mh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list_sync_btn"/>
+    <ProgressBar
+        android:id="@+id/pgBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

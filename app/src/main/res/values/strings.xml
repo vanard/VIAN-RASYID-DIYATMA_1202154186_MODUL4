@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VIANRASYIDDIYATMA_1202154186_MODUL4</string>
+    <string name="list_nama_mahasiswa">List Nama Mahasiswa</string>
+    <string name="cari_gambar">Cari Gambar</string>
+    <string name="mulai_asynctask">Mulai AsyncTask</string>
+    <string name="masukkan_url_gambar">Masukkan URL Gambar</string>
+    <string name="klik_mencari_gambar">Klik untuk mencari gambar</string>
+    <string name="link_gambar">https://cdn.images.express.co.uk/img/dynamic/143/590x/DOA-2-7-06-804904.jpg</string>
+    <!-- buat array -->
+    <string-array name="names">
+        <item>Aldo</item>
+        <item>Aprianil</item>
+        <item>Arif</item>
+        <item>Arya</item>
+        <item>Chandra</item>
+        <item>Husain</item>
+        <item>Ilham</item>
+        <item>Khalida</item>
+        <item>Marissa</item>
+        <item>Michael</item>
+        <item>Ridho</item>
+        <item>Rommy</item>
+        <item>Taufiq</item>
+        <item>Vian</item>
+        <item>Yassir</item>
+    </string-array>
+</resources>

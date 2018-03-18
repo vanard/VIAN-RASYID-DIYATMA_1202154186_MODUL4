@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.studycase.vanard.vianrasyiddiyatma_1202154186_modul4.MainActivity">
+
+    <Button
+        android:id="@+id/list_nama_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/list_nama_mahasiswa"
+        android:textSize="20sp"
+        android:onClick="toListNama"/>
+    <Button
+        android:id="@+id/cari_gambar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cari_gambar"
+        android:textSize="20sp"
+        android:onClick="toCariGambar"/>
+
+</LinearLayout>
